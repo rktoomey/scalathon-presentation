@@ -1,0 +1,127 @@
+/*
+img { 
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px; 
+  background:#eee;
+  padding:.15em;
+  height:50%;
+}
+*/
+
+img {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+
+* {
+  font-family: Arial !important,sans-serif;
+}
+
+th {
+  font-size: 26px;
+}
+
+td {
+  font-size: 26px;
+  border: #cccccc solid 1px;
+}
+
+pre {
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    font: 18px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace !important;
+    line-height: 19px;
+    overflow: auto;
+    padding: 6px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+pre code {
+    /*font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace !important;*/
+    /*background-color: #F8F8F8;*/
+    border: 0px;
+    border-radius: 0px;
+    font: 17px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace !important;
+    /*padding: 0px;*/
+}
+
+code {
+    /*font-family: Monospace !important;*/
+    /*font-size: 22px !important;*/
+    font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace !important;
+    background-color: #F8F8F8;
+    border: 1px solid #DEDEDE;
+    border-radius: 3px;
+    padding: 0px;
+}
+
+h1 {
+  color: #16325A !important;
+  font-size: 38px !important;
+  padding-bottom: 15px; 
+}
+
+h2, h3 {
+  color: #16325A !important;
+  font-size: 26px !important;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+li {
+  font-size: 26px;
+  padding: 2px;
+}
+
+p, span {
+  font-size: 26px;
+}
+
+
+a, a:hover, a:visited {
+  color: #546c92 !important;
+}
+
+span.wrong {
+    border-left: 15px groove #333333;
+    text-decoration: line-through;
+    background: #d3d3d3;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+span.correction {
+    border-left: 15px groove red;
+    background: #ffb6c1;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+span.clarification {
+    border-left: 15px groove green;
+    background: #98fb98;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+span.big_new {
+    border-left: 15px groove #daa520;
+    border-right: 15px groove #daa520;
+    background: #fafad2;
+    font-style: italic;
+    font-size: 40px;
+    padding: 20px 10px;
+}
+
+span.new {
+    border-left: 15px groove #daa520;
+    background: #fafad2;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+

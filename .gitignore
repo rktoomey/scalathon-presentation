@@ -1,0 +1,16 @@
+tags
+*.swp
+*.swo
+target/
+project/boot
+project/plugins/src_managed
+project/plugins/project
+lib_managed/
+logs/
+.ensime
+*.iml
+.idea
+*.ipr
+*.iws
+out/
+*.log
